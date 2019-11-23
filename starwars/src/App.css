@@ -8,11 +8,21 @@
 }
 /* write your parent styles in here for your App.js */
 
-.star-card {
+.Container {
   display: flex;
-  justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   
 }
+
+.star-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+} 
+
+
 
 

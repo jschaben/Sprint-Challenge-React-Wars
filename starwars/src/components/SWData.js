@@ -3,6 +3,7 @@ import axios from "axios";
 import SWCard from "./SWCard";
 
 
+
 export default function SWData() {
     const [characters, setCharacters] = useState([]);
 

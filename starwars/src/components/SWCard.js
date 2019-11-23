@@ -10,7 +10,7 @@ const Card = styled.div`
   background: sandybrown;
   margin: 10px;
   border-radius: 30px;
-
+  
   &:hover {
     color: steelblue;
     background: wheat;
