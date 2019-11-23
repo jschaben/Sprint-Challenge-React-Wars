@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+
 const Card = styled.div`
   width: 350px;
   height: 250px;
@@ -19,7 +20,7 @@ const Card = styled.div`
 
 const SWCard = props => {
     return (
-      <div className="star-card" key={props.id}>
+    <div className="star-card" key={props.id}>
         <Card>
           <h2>{props.name}</h2>
           <p>Gender: {props.gender}</p>
@@ -27,7 +28,8 @@ const SWCard = props => {
           <p>Weight: {props.weight}</p>
           <p>Birth Year: {props.birth_year}</p>
         </Card>
-      </div>
+    </div>
+      
     );
   };
   
