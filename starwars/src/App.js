@@ -1,7 +1,9 @@
 import React from 'react';
+import SWData from "./components/SWData";
 import './App.css';
 
-const App = () => {
+
+function App () {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
@@ -12,6 +14,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">React Wars</h1>
+      <SWData />
     </div>
   );
 }
