@@ -28,7 +28,8 @@ return (
                     gender={char.gender}
                     height={char.height}
                     weight={char.mass}
-                    />
+                    birth_year={char.birth_year}
+                    />  
             );
         })}
     </div>
